@@ -1,0 +1,49 @@
+.event-bg {
+  height: 100vh;
+  width: 100vw;
+  background: url("./../../assets/eventBg.png");
+  background-position: center;
+  background-size: cover;
+  background-color: #000000;
+  position: fixed;
+  top: 0;
+  right: 0;
+  z-index: -10;
+}
+.event-container {
+  padding: 10%;
+  margin: 2%;
+}
+.event-container h3 {
+  /* padding-left: 8%; */
+  color: #ffb100;
+  font-size: 2.5rem;
+  font-family: "Poppins";
+  font-weight: bold;
+  margin-bottom: 2rem;
+}
+.event-container h1 {
+  /* padding-left: 10%; */
+  color: #fff;
+  font-family: "Poppins", sans-serif;
+  font-size: 50px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 60px; /* 60px */
+  width: 50%;
+  margin-bottom: 2rem;
+}
+.event-container p {
+  /* padding-left: 15%; */
+  color: #e6e6e6;
+  font-family: "Poppins", sans-serif;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 180%; /* 36px */
+  width: 591px;
+}
+.event-container img {
+  padding: 2%;
+  float: right;
+}
